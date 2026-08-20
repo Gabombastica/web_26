@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+
+<h1> Exemplos de Formulários </h1>
+
+<!-- O metodo deve ser post -->
+<form action="" method="get">
+<!-- Exemplo 1 de um Label e Input -->
+    <label>
+        Nome:
+<!-- O name deve começar com form_ -->
+        <input name="form_nome" type="text" placeholder="Digite seu nome" required>
+    </label>
+    <br>
+    <br>
+
+<!-- Exemplo 2 de um Label e Input -->
+    <label for="input2"> Sobrenome: </label>
+    <input id="input2" name="sobrenome" type="text" placeholder="Ex: Salvatore" required>
+    <br>
+    <br>
+
+    <label>
+        Idade:
+        <input name="form_idade" type="number" placeholder="Digite sua idade">
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Data de Nascimento:
+        <input name="form_data_nascimento" type="date">
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Senha:
+        <input name="form_senha" type="password" placeholder="Digite sua senha">
+    </label>
+    <br>
+    <br>
+
+    <label> Qual o ano atual do seu Ensino Médio? </label>
+    <br>
+
+<!-- No input "radio" os names devem ser iguais -->
+
+    <label>
+        <input name="form_em" value="1" type="radio">
+        1 EM
+    </label>
+    <br>
+
+    <label>
+        <input name="form_em" value="2" type="radio">
+        2 EM
+    </label>
+    <br>
+
+    <label>
+        <input name="form_em" value="3" type="radio">
+        3 EM
+    </label>
+    <br>
+    <br>
+
+    <label> Qual a sua carteira de motorista? </label>
+    <br>
+
+    <label>
+        <input name="form_carro" type="checkbox">
+        Carro
+    </label>
+    <br>
+
+    <label>
+        <input name="form_moto" type="checkbox">
+        Moto
+    </label>
+    <br>
+
+    <label>
+        <input name="form_caminhao" type="checkbox">
+        Caminhão
+    </label>
+    <br>
+
+    <label>
+        <input name="form_onibus" type="checkbox">
+        Ônibus
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Comentário: <br>
+        <textarea name="form_comentario" rows="10" cols="50"> </textarea>
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Cidade:
+        <select name="form_cidade">
+            <option value="guararapes"> Guararapes </option>
+            <option value="aracatuba"> Araçatuba </option>
+            <option value="valparaiso"> Valparaíso </option>
+        </select>
+    </label>
+    <br>
+    <br>
+
+<!-- Sempre vai ser submit para salvar os dados -->
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+</body>
+</html>

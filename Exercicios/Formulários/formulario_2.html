@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Exercício 2: Registrar Produtos </title>
+</head>
+<body>
+
+<form action="" method="post">
+  <label>
+    Nome do Produto:
+    <input name="form_nome_produto" type="text" placeholder="Ex: Celular Samsung" required>
+  </label>
+  <br>
+  <br>
+
+  <label>
+    Descrição: <br>
+    <textarea name="form_descricao" rows="10" cols="30" required> </textarea>
+      </label>
+  <br>
+  <br>
+
+  <label>
+    Categoria:
+    <select name="form_categoria" required>
+            <option value="eletronicos"> Eletrônicos </option>
+            <option value="livros"> Livros </option>
+            <option value="brinquedos"> Brinquedos </option>
+            <option value="esportes"> Esportes </option>
+            <option value="calcados"> Calçados </option>
+        </select>
+  </label>
+  <br>
+  <br>
+
+  <label>
+    País de Fabricação:
+    <select name="form_pais_fabricacao" required>
+            <option value="brasil"> Brasil </option>
+            <option value="eua"> Estados Unidos </option>
+            <option value="china"> China </option>
+            <option value="alemanha"> Alemanha </option>
+            <option value="inglaterra"> Inglaterra </option>
+        </select>
+  </label>
+  <br>
+  <br>
+
+  <label>
+   Preço:
+    <input name="form_preco" type="number" required>
+  </label>
+  <br>
+  <br>
+
+  <label>
+    Data de Fabricação:
+    <input name="form_data_fabricacao" type="date" required>
+  </label>
+  <br>
+  <br>
+
+  <button type="submit"> Enviar </button>
+  <button type="reset"> Limpar </button>
+
+</form>
+
+</body>
+</html>
