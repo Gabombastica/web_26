@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.plano_de_fundo {
+    width: 100%;
+    height: auto;
+    background: #DE5D83;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+    border: 10px solid #E6C7C2;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.dias_31 {
+    width: 300px;
+    height: 250px;
+    background: #FC8EAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+
+.dias_30 {
+    width: 300px;
+    height: 250px;
+    background: #FFD1DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+
+.dias_28 {
+    width: 300px;
+    height: 250px;
+    background: #F4C2C2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+
